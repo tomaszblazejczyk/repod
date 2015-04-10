@@ -36,4 +36,13 @@ Install ckanext-ceon https://github.com/mateuszneumann/ckanext-ceon
 
 Install MOAI branch for RepOD with CKAN data factory https://github.com/tomaszblazejczyk/moai
 
+Running RepOD in development mode
+
+paster serve settings.ini
+
+If you visit http://localhost:8080/repod you can see CKAN page
+
+Visit localhost:8080/oai to view the moai oaipmh feed.
+To list repository content visit http://localhost:8080/oai?verb=ListRecords&metadataPrefix=oai_dc
+
 
